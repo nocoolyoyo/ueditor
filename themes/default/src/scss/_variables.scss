@@ -49,6 +49,7 @@ $c-aoyi:  #51a3ff;
 $c-milka:  #f5f7f9;
 $c-silkgray:  rgb(250, 253, 255);
 $c-huiyuan:  #d7dde4;
+$c-greylight: #d4d4d5;
 $c-nightlight: #3c3c3c;
 $c-blood:  #de432e;
 $c-lemon:  #de8b3d;
@@ -77,6 +78,7 @@ $Colors: (
 $theme-color-main: $c-nightlight;
 $theme-color-bg: $c-milka;
 $theme-color-text: $c-milka;
+$theme-color-border: $c-smt-border;
 $theme-color-hr: $c-smt-border;
 $theme-color-primary: $c-aoyi;
 $theme-color-danger: $c-blood;
@@ -98,13 +100,12 @@ $Spaces: (
 
 //边线-----------------------
 
-$Border-normal: 1px solid rgba(34,36,38,.15);
+$border-normal: 1px solid rgba(34,36,38,.15);
 
 
 
 //圓角-----------------------
-
-$Border-radius-normal: .28571429rem;
+$border-radius-normal: .28571429rem;
 
 
 //过渡---------------------------
@@ -113,7 +114,11 @@ $transition-slow: all 0.5s ease;
 
 
 //阴影
-$box-shadow-normal: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+$box-shadow-normal: 0 1px 3px 0 $c-greylight, 0 0 0 1px $c-greylight;
+$box-shadow-slim : 0 1px 1px 0 $c-greylight, 0 0 0 1px $c-greylight;
+
+
+
 
 
 

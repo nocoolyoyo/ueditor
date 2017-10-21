@@ -1,0 +1,6 @@
+//-----------------------
+//页面具体样式输出
+//-----------------------
+@function unicode($str){
+    @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+}
