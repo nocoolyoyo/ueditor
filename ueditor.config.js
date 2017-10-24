@@ -81,7 +81,7 @@
         "tolowercase",
         "|",
         "link",
-        "unlink",
+        // "unlink",//略显多余
         "anchor",
         "|",
         "imagenone",
