@@ -31,18 +31,18 @@
       });
       this.initSplitButton();
     },
-    _SplitButton_postRender: SplitButton.prototype.postRender,
-    postRender: function() {
-      this._SplitButton_postRender();
-      this.getDom("button_body").appendChild(
-        uiUtils.createElementByHtml(
-          '<div id="' + this.id + '_colorlump" class="edui-colorlump"></div>'
-        )
-      );
-      this.getDom().className += " edui-colorbutton";
-    },
+    // _SplitButton_postRender: SplitButton.prototype.postRender,
+    // postRender: function() {
+    //   this._SplitButton_postRender();
+    //   this.getDom("button_body").appendChild(
+    //     uiUtils.createElementByHtml(
+    //       '<div id="' + this.id + '_colorlump" class="edui-colorlump"></div>'
+    //     )
+    //   );
+    //   this.getDom().className += " edui-colorbutton";
+    // },
     setColor: function(color) {
-      this.getDom("colorlump").style.backgroundColor = color;
+      this.getDom("button_body").querySelector(".edui-icon").style.color = color;
       this.color = color;
     },
     _onPickColor: function(color) {

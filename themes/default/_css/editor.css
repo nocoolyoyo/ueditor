@@ -1,21 +1,22 @@
 @charset "UTF-8";
 /*UI工具栏、编辑区域、底部*/
-.edui-default.edui-editor {
-  border: 1px solid rgba(34, 36, 38, 0.15);
-  border-top: 5px solid #3c3c3c;
-  background-color: white;
-  position: relative;
-  overflow: visible;
-  border-radius: 0.28571rem; }
-
-.edui-default .edui-editor-toolbarbox {
-  position: relative;
-  zoom: 1; }
-
-.edui-default .edui-editor-toolbarboxouter {
-  box-shadow: 0 1px 1px 0 #d4d4d5;
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
-  *zoom: 1; }
+.edui-default {
+  background-color: white; }
+  .edui-default.edui-editor {
+    background-color: white;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-top: 5px solid #3c3c3c;
+    position: relative;
+    overflow: visible;
+    border-radius: 0.28571rem; }
+  .edui-default .edui-editor-toolbarbox {
+    position: relative;
+    background-color: white;
+    zoom: 1; }
+  .edui-default .edui-editor-toolbarboxouter {
+    box-shadow: 0 1px 1px 0 #d4d4d5;
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+    *zoom: 1; }
 
 .edui-editor div {
   width: auto;

@@ -1,16 +1,18 @@
 /*UI工具栏、编辑区域、底部*/
 
 .edui-#{$theme}  {
+    background-color: white;
     &.edui-editor {
+        background-color: white;
         border: $border-normal;
         border-top: 5px solid $theme-color-main;
-        background-color: white;
         position: relative;
         overflow: visible;
         border-radius: $border-radius-normal;
     }
     & .edui-editor-toolbarbox {
         position: relative;
+        background-color: white;
         zoom: 1;
     }
     & .edui-editor-toolbarboxouter {
